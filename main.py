@@ -2,10 +2,6 @@
 import socket
 import os
 
-
-
-
-
 def main():
     # print("This is Sindu!")
     result = open("/home/output/result.txt", "w+")
@@ -79,10 +75,6 @@ def main():
     result_file = open('/home/output/result.txt','r')
     data_result = result_file.read()
     print(data_result)
-    
-    
- 
-
      
 
 if __name__ == "__main__":
